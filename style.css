@@ -1,0 +1,523 @@
+body{
+    height: 100vh;
+    display: block;
+
+}
+header{
+    height: 82px;
+}
+html{
+    width: 100%;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-bar{
+    margin-top: 31px;
+    margin-left: 67px;
+    border: 0;
+    background-color: white;
+    font-size: 15px;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+span{
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+svg{
+    width: 209px;
+    align-items: center;
+    position: absolute;
+    left: 615px;
+    top: 30px;
+    height: 22px;
+}
+.div-1{
+    width: 100%;
+    height: 100%;
+}
+.img-1{
+    height: 552px;
+    object-fit: cover;
+}
+.model{
+    margin-top: 81px;
+margin-left: 117px;
+font-size: 42px;
+font-family: "Porsche Next", "Arial Narrow", sans-serif;
+font-weight: 900;
+}
+
+.text-1{
+    margin-left: 104px;
+    margin-top: -141px;
+    font-size: 48px;
+    color: #fff;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+    font-weight: 600;
+}
+.text-2{
+    margin-left: 111px;
+    font-size: 29px;
+    color: #fff;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+.div-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.a{
+    background-color: black;
+    color: #fff;
+}
+.b{
+    background-color: rgb(227, 7, 7);
+    color: #fff;
+}
+.c{
+    background-color: rgb(139, 226, 8);
+    color: #fff;
+}
+.img-2{
+    width: 100%;
+}
+.t-911{
+    margin-top: -348px;
+    margin-left: 34px;
+    font-size: 39px;    
+    color: #fff;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+.inr{
+    margin-top: -3px;
+    margin-left: 33px;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+.for-button{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    size: 10px;
+    background-color: black;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+.build{
+    margin-top: 195px;
+    margin-left: 37px;
+    font-size: 16px;
+    border: 0;
+    background-color: #fff;
+    padding: 15px;
+    font-weight: 600;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+.build:hover{
+    background-color: red;
+    color: #fff;
+}
+.all{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 16px;
+    margin-left: 9px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+.all:hover{
+    color: red;
+    border-color: red;
+}
+.img-a{
+    width: 100%;
+    height: 100%;
+}
+.text-a{
+    margin-top: -348px;
+    margin-left: 34px;
+    font-size: 39px;    
+    color: #fff;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+.text-E{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 104px;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+.div-3{
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 353px;
+}
+.text-f{
+    padding-top: 58px;
+    padding-bottom: 30px;
+    font-size: 37px;
+    margin-left: 98px;
+    margin-top: 10px;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+    font-weight: 600;
+}
+.but-f{
+    border: 0;
+    background-color: #313639;
+    color: #fff;
+    padding: 19px;
+    margin-left: 164px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+.but-f:hover{
+    background-color: red;
+}
+.text-s{
+    font-size: 37px;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+    font-weight: 600;
+    margin-left: 98px;
+    padding-bottom: 42px;
+}
+.side-gap{
+    margin: 1px;
+    transform: scale(0.9);
+    width: 100%;
+    height: 100px;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: 500px 1fr 1fr 1fr;
+    height: 100px;
+}
+.div-{
+    display: grid; 
+    grid-template-rows: 300px;
+    grid-template-columns: 450px 1fr 1fr 1fr;
+    border: 1px solid black;
+}
+.div--{
+    width: 100%;
+    background-image: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-shoppingtools-compare/normal/4365f64f-2c10-11e7-9f74-0019999cd470;sN;twebp/porsche-normal.webp);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div-- .img{
+    width: 100%;
+    object-fit: cover;
+}
+.main{
+    transform: scale(0.9);
+}
+.divv{
+    
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.div---{
+    width: 100%;
+    background-image: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-shoppingtools-dealersearch/normal/c365840c-687b-11e7-9717-0019999cd470;sQ;twebp/porsche-normal.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div----{
+    width: 100%;
+    background-image: url(https://files.porsche.com/filestore/image/middle-east/none/homepage-teaser-shoppingtools-pds/normal/94ab936b-9704-11e7-b591-0019999cd470;sQ;twebp/porsche-normal.webp);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div-----{
+    width: 100%;
+    background-image: url(https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-shoppingtools-kontakt/normal/df7cfdaf-9790-11e7-b591-0019999cd470;sQ;twebp/porsche-normal.webp);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.b-1{
+    border: 0;
+    font-size: 21px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+    padding-top: 253px;
+    padding-right: 300px;
+    padding-left: 59px;
+    padding-bottom: 29px;
+}
+.b-2{
+    border: 0;
+    font-size: 21px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+    padding-top: 247px;
+    padding-left: 48px;
+    padding-bottom: 29px;
+    padding-right: 151px;
+}
+.b-3{
+    border: 0;
+    font-size: 21px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+    padding-top: 247px;
+    padding-left: 48px;
+    padding-bottom: 29px;
+    padding-right: 132px;
+}
+.b-4{
+    border: 0;
+    font-size: 21px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+    padding-top: 247px;
+    padding-left: 48px;
+    padding-bottom: 29px;
+    padding-right: 190px;
+}
+.b-1:hover,.b-2:hover,.b-3:hover,.b-4:hover{
+    color: red;
+}
+.verthe{
+    padding: 157px;
+}
+.main-1{
+    transform: scale(0.9);
+}
+.main-a{
+    margin-left: 98px;
+}
+.main-a-h2{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+}
+
+.button-1{
+    font-size: 11px;
+    padding: 16px;
+    float: right;
+    margin-top: 10px;
+    padding-left: 23px;
+    color: #fff;
+    background-color: #313639;
+    border: 0;
+    cursor: pointer;
+}
+.button-1:hover{
+    background-color: red;
+}
+.main-div-last{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 200px;
+}
+.last-a{
+    background-image: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2018-homepage-teaser-ww-e-performance-kw12/normal/f7cc8e7c-6599-11e9-80c4-005056bbdc38;sM/porsche-normal.jpg);
+    background-size: cover;
+}
+.last-b{
+    background-image: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2019-homepage-teaser-pof-porschefinder-kw45/normal/f26ec9e6-fb09-11e9-80c6-005056bbdc38;sM/porsche-normal.jpg);
+    background-size: cover;
+}
+.last-c{
+    background-image: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2022-homepage-teaser-ww-pds-porschelifestyle-kw22/normal/585df047-db34-11ec-80ef-005056bbdc38;sM/porsche-normal.jpg);
+    background-size: cover;
+}
+.last-d{
+    background-image: url(https://files.porsche.com/filestore/image/multimedia/none/rd-2017-homepage-teaser-porscheexclusivemanufaktur-kw24/normal/3cbd9b47-4c59-11e7-bfe2-0019999cd470;sM/porsche-normal.jpg);
+    background-size: cover;
+}
+.main-div-lastt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 30px;
+}
+.same{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+.same:hover{
+    color: red;
+}
+.lastt{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 130px;
+}
+.last-button{
+    border: 0;
+    font-size: 16px;
+    padding: 26px;
+    display: block;
+    margin-left: 19px;
+    padding-top: 34px;
+    background-color: transparent;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+    cursor: pointer;
+}
+.last-buttonn{
+    border: 0;
+    font-size: 17px;
+    padding: 26px;
+    display: block;
+    margin-left: 19px;
+    padding-top: 34px;
+    background-color: transparent;
+    font-weight:900;
+    cursor: pointer;
+}
+.last-button:hover,.last-buttonn:hover{
+    color: red;
+}
+.last-buttonnn{
+    background-color: #313639;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 24px;
+    padding-right: 76px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    margin-top: 60px;
+    border: 0;
+    transition: 6.15;
+}
+.last-buttonnn:hover{
+    background-color: red;
+}
+footer{
+    margin-top: 150px;
+    background-color: rgb(25, 31, 34);
+    height: 300px;
+    transform: scale(1.12);
+}
+.foot-div1{
+    width: 100%;
+    height: 20%;
+}
+.foot-h1{
+    margin-left: 100px;
+    color: #fff;
+    padding-top: 20px;
+}
+.foot-div2{
+    width: 100%;
+    height: 150%;
+}
+.foot-but{
+    margin-top: 15px;
+    padding: 15px;
+    margin-left: 100px;
+    padding-right: 60px;
+    background-color: #313639;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+}
+.foot-butt{
+    padding: 15px;
+    padding-right: 20px;
+    background-color: #313639;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+}
+.main-b{
+    width: 100%;
+    height: 711.375px;
+    display: grid;
+    grid-template-columns:  16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+.item-1{
+    grid-area: 1/1/3/3;
+    background-image: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/890f8205920a830742ef8c291abce32fc71fa75f4e74111d90c5fa38.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-2{
+    grid-area: 3/1/4/2;
+    background-image: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/d4ae364b4cd699583410bbe035a608efd3f8ddab32e161ab01e0a002.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-3{
+    grid-area: 3/2/4/3;
+}
+.item-3 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-4{
+    grid-area: 1/3/1/4;
+}
+.item-4 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-5{
+    grid-area: 2/3/4/5;
+}
+.item-5 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-6{
+    grid-area: 1/4/1/5;
+}
+.item-6 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-7{
+    grid-area: 1/5/3/7;
+    background-image: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/9520bafa31580d47244816f29655a0720fc688629979de5c6000bcc8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-8{
+    grid-area: 3/5/4/6;
+    background-image: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/69c2c081684bd1eb604cb5260bbf014413cd424605f1260d10f29be8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-9{
+    grid-area: 3/6/4/7;  
+    background-image: url(https://d2vykwbochoala.cloudfront.net/t_smart_auto_crop/https://d1sdeqoxcfgxl0.cloudfront.net/images/original/c8f5136b266564565ac00b2e984a46e95a8021fa07e35d483b8ef467.jpg);
+    background-position: center;
+    background-size: cover;
+}
